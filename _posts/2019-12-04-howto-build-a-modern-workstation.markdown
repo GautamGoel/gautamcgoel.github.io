@@ -43,5 +43,4 @@ Like motherboards, people tend to overspend on power supplies; good power suppli
 
 
 
-
-## Troubleshooting
+**Troubleshooting.** If your system isn't booting, there are a few things you should check first. Are the RAM sticks properly situated in the DIMM slots? Make sure they are fully inserted - usually they will click into place when properly seated. Second, check that the power supply cables are properly attached to the motherboard. Modern motherboards will often have an LED that lights up when the system has power - if that LED isn't turning on when you boot up, you might have a power issue. Note that CPUs, GPUs, RAM, and SSDS rarely have hardware failures; I've never heard of one of these components coming defective out of the box, though I have heard of faulty motherboards. If you are really sure that you have a defective part, look at the motherboard first.
