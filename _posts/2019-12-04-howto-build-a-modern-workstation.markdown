@@ -48,4 +48,4 @@ The actual process of putting the components together to build a functional work
 
 # A Recent Build
 
-[Image]https://github.com/gautamcgoel/gautamcgoel.github.io/images/IMG_20181217_164708.jpg
+![Image](https://github.com/gautamcgoel/gautamcgoel.github.io/images/IMG_20181217_164708.jpg)
