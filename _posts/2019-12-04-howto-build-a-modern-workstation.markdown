@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "HOWTO: Build a modern workstation for machine learning"
+title:  "HOWTO: Build a workstation for machine learning"
 date:   2019-12-04 00:26:47 -0800
 categories: hardware
 ---
@@ -40,7 +40,7 @@ Like motherboards, people tend to overspend on power supplies; good power suppli
 
 
 ## Assembling the system
-
+The actual process of putting the components together to build a functional workstation is a bit beyond the scope of this post; I suggest fisrt-timers consult this guide (https://www.pcgamer.com/how-to-build-a-gaming-pc-a-beginners-guide/) and look at these videos (https://www.youtube.com/watch?v=IhX0fOUYd8Q, https://www.youtube.com/watch?v=x1OBRSvzDi8&t=5019s). 
 
 
 **Troubleshooting.** If your system isn't booting, there are a few things you should check first. Are the RAM sticks properly situated in the DIMM slots? Make sure they are fully inserted - usually they will click into place when properly seated. Second, check that the power supply cables are properly attached to the motherboard. Modern motherboards will often have an LED that lights up when the system has power - if that LED isn't turning on when you boot up, you might have a power issue. Note that CPUs, GPUs, RAM, and SSDS rarely have hardware failures; I've never heard of one of these components coming defective out of the box, though I have heard of faulty motherboards. If you are really sure that you have a defective part, look at the motherboard first.
