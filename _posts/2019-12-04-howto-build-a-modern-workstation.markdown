@@ -47,7 +47,7 @@ The actual process of putting the components together to build a functional work
 
 
 ## A Recent Build
-Here are some pics from a recent build of mine. The workstation featured an i5 9600k CPU, an Asus Z390 Prime motherboard, a beautiful Noctua Noctua NH-L9x65 CPU heatsink, a Samsung 970 EVO 256GB M.2 SSD, and 16GB of Ballistix DDR4 RAM. The system was housed in a Fractal Design Meshify C case. (Photo credit: Megan Schill).
+Here are some pics from a recent build of mine. The workstation featured an i5 9600k CPU, an Asus Z390 Prime motherboard, a beautiful Noctua NH-L9x65 CPU heatsink, a Samsung 970 EVO 256GB M.2 SSD, and 16GB of Ballistix DDR4 RAM. The system was housed in a Fractal Design Meshify C case. (Photo credit: Megan Schill).
 
 ![Image](/images/IMG_20181217_164708.jpg)
 
