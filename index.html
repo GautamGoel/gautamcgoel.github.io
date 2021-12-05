@@ -75,167 +75,46 @@
             <br>
 	    <br>
             <b> Papers. </b> Sorted in decreasing chronological order.
-	    Authors listed alphabetically, per TCS tradition. 
-            <ol>
-		<li>
-		<a onclick='$("#sigact_abstract").toggle()' class="popout"><b>Models of computation between decision trees and communication.</b></a>
-		<b> Alexander Knop, Shachar Lovett, SM, Weiqiang Yuan.</b> 
-                  SIGACT Complexity Column, June 2021.
-                  [<a href="papers/KLMYsigact.pdf">pdf</a>]
-                  <br>
-                  <div id='sigact_abstract' class="abstract">
-			We survey recent work on the communication complexity of functions $F : \{0, 1\}^n \times \{0, 1\}^n \to \{0, 1\}$ 
-			of the form $f (x \circ y)$ where $f : \{0, 1\}^n â†’ \{0, 1\}$ is a total boolean function and $\circ$ represents either bit-wise XOR 			or bit-wise AND. This naturally leads to the study of models of computation that are, in a sense, 'between' communication complexity 			and decision tree complexity. These classes of functions capture a rich class of communication problems while simultaneously being 			amenable to analysis with minimal assumptions about the structure of $f$. This flexibility has shed new light on central topics in 			communication complexity, including restricted cases of the log-rank conjecture and the query-to-communication lifting methodology.
-		</li>
-		<br>
+                      <div class="paper">
+			  <p class="title"><b><a href="https://arxiv.org/abs/2105.01244"> Regret-Optimal Full-Information Control.</a> </b></p>
+			  <p>with Oron Sabag, Sahin Lale, and Babak Hassibi. Appeared at <b> ACC 2021.</b></p>
+		     </div>    
+
+		     <div class="paper">
+			  <p class="title"><b><a href="https://arxiv.org/abs/2011.12785"> Regret-optimal measurement-feedback control.</a></b></p>
+			  <p>with Babak Hassibi. Appeared at <b>L4DC 2021.</b></p>
+		     </div>    
+
+		     <div class="paper">
+			  <p class="title"><b> <a href="https://arxiv.org/abs/1911.03827">  Online Optimization with Predictions and Non-convex Losses.</a></b></p>
+			  <p>with Yiheng Lin and Adam Wierman. Appeared at <b> Sigmetrics 2020.</b></p>
+		     </div>    
+
+		     <div class="paper">
+			  <p class="title"><b><a href="https://arxiv.org/abs/1905.12776">  Beyond Online Balanced Descent: An Optimal Algorithm for Smoothed Online Optimization.</a></b></p>
+			  <p>with Yiheng Lin. Haoyuan Sun, and Adam Wierman. Appeared at <b> NeurIPS 2019.</b></p>
+			  <p style="color:maroon"><strong>Spotlight Presentation</strong><p>
+		     </div>    
+
+		     <div class="paper">
+			  <p class="title"><b><a href="https://arxiv.org/abs/1810.10132">  An Online Algorithm for Smoothed Regression and LQR control.</a></b></p>
+			  <p>with Adam Wierman. Appeared at <b> AISTATS 2019.</b></p>
+		     </div>    
 
 
-		<li>
-		<a onclick='$("#ADT_logn_abstract").toggle()' class="popout"><b>Log-rank and lifting 
-				for AND-functions.</b></a>
-		<b> Alexander Knop, Shachar Lovett, SM, Weiqiang Yuan.</b> 
-                  STOC 2021.
-                  [<a href="papers/KLMY21.pdf">pdf</a>]
-                  [<a href="talks/STOC21_talk_full.pdf">slides</a>]
-                  [<a href="talks/STOC21_poster.pdf">poster</a>]
-                  [<a href="https://www.youtube.com/watch?v=9HyK8dgHQjQ">video@STOC</a>]
-                  <br>
-                  <div id='ADT_logn_abstract' class="abstract">
-		Let $f: \{0,1\}^n \to \{0, 1\}$ be a boolean function, and let
-		$f_\land (x, y) = f(x \land y)$ denote the AND-function
-		of $f$,
-		where $x \land y$ denotes bit-wise AND. 
-		We study the deterministic communication complexity 
-		of $f_\land$ and show that, up to a $\log n$ factor, 
-		it is bounded by a polynomial in the logarithm 
-		of the real rank of the communication matrix of $f_\land$. 
-		This comes within a $\log n$ factor of 
-		establishing the log-rank conjecturefor AND-functions with no assumptions on $f$. 
-		Our result stands in contrast with previous results on special cases of the log-rank 
-		conjecture, which needed significant restrictions on $f$ such as monotonicity or 
-		low $\mathbb{F}_2$-degree. 
-		Our techniques can also be used to prove (within a $\log n$ factor) a 
-		lifting theorem for AND-functions, stating that the deterministic communication 
-		complexity of $f_\land$ is polynomially-related to the AND-decision tree complexity of
-		$f$.
-		<br><br>
-		The results rely on a new structural result regarding boolean functions 
-		$f:\{0, 1\}^n \to \{0, 1\}$
-		with a sparse polynomial representation, which may be of independent interest.  
-		We show that if the polynomial computing $f$ has few monomials then the set system 
-		of the monomials has a small hitting set, of size poly-logarithmic in its sparsity.  
-		We also establish extensions of this result to multi-linear polynomials 
-		$f:\{0,1\}^n \to \mathbb{R}$ 
-		with a larger range.
-		</li>
+		     <div class="paper">
+			  <p class="title"><b><a href="https://arxiv.org/abs/1803.10366"> Smoothed Online Convex Optimization in High Dimensions via Online Balanced Descent.</a></b></p>
+			  <p>with Niangjun Chen and Adam Wierman. Appeared at <b>COLT 2018.</b></p>
+		     </div>      
 
-	     <!--     ###############################################       -->
-
-	     <br>
-	     <li>
-                  <a onclick='$("#dense_models_abstract").toggle()' class="popout"><b>Comparing computational entropies below majority (or: When is the dense model theorem false?)</b></a>
-		<b> Russell Impagliazzo, SM. </b>
-                  ITCS 2021.
-                  [<a href="papers/IM21.pdf">pdf</a>]
-                  [<a href="talks/dmt_talk_full.pdf">slides</a>]
-                  [<a href="https://www.youtube.com/watch?v=a-iapVCPdtA">video@ITCS</a>]
-                  <br>
-                  <div id='dense_models_abstract' class="abstract">
-		Computational pseudorandomness studies the extent to which a random variable 
-		$\mathbf{Z}$ looks like the uniform distribution according to a class of 
-		tests $\mathcal{F}$. Computational <i> entropy </i> generalizes computational 
-		pseudorandomness by studying the extent which a random variable looks like a 
-		high entropy distribution. There are different formal definitions of computational 
-		entropy with different advantages for different applications. Because of this, 
-		it is of interest to understand when these definitions are equivalent.
-		<br><br>	
-		We consider three notions of computational entropy which are known to be equivalent when 
-		the test class $\mathcal{F}$ is closed under taking majorities. 
-		This equivalence constitutes (essentially) the so-called dense model 
-		theorem of Green and Tao (and later made explicit by Tao-Zeigler, Reingold et al., 
-		and Gowers). The dense model theorem plays a key role in Green and Tao's proof 
-		that the primes contain arbitrarily long arithmetic progressions and 
-		has since been connected to a surprisingly wide range of topics in 
-		mathematics and computer science, including cryptography, computational 
-		complexity, combinatorics and machine learning. We show that, 
-		in different situations where $\mathcal{F}$ is <i> not </i> closed under majority, 
-		this equivalence fails. 
-		This in turn provides the first examples to appear in the literature 
-		in which the dense model theorem is false.
-               </li>
-	       
-
-	     <!--     ###############################################       -->
-
-	       <br>
-               <li> 
-                  <a onclick='$("#bs_thesis_abstract").toggle()' class="popout"><b> Model Checking Sparse Structures in Dynamic
-                        Descriptive Complexity Theory.</b></a>
-		  <b> SM. </b> 
-                  Undergraduate thesis.
-                  [<a href="bs_thesis.pdf">pdf</a>]
-                  <br>  
-                  <div id='bs_thesis_abstract' class = "abstract">
-                     Dynamic descriptive complexity seeks to characterize the complexity of queries in terms of the logical language required to express update programs that maintain them. It is a natural notion in the study of relational databases: the database is subject to change and the total re-computation of a query may not be feasible due to both the rate of change, the static complexity of the query, or simply the size of the database in question. 
-                     <br><br>
-                     Here, we present a $\text{Dyn-QF}$ algorithm for model-checking $\text{FO}$ properties on bounded-degree structures. The main technical tool is an algorithm for maintaining the neighborhoods of elements in bounded-degree structures, which can be then be applied to perform model checking on particular logics admitting local normal forms. As applications of the methodology, we show algorithms for maintaining the number of witnesses to a first-order property and model checking the counting logic $\text{FOCN}(\textbf{P})$ recently introduced by Kuske and Schweikardt. This in turn establishes $\text{Dyn-QF}$ algorithms for simulating $\text{FO}(COUNT)$ properties on bounded-degree structures, making partial progress towards the conjecture that $\text{FO}(COUNT) \subseteq \text{Dyn-FO}$, originally made by Patnaik and Immerman in the '90s. 
-                  </div>
-               </li>
-               <!-- <li>
-                     Authors
-                     <a onclick='$("#title").toggle()' class="popout"><b> Title </b></a>
-                     Venue.
-                     [<a href="title.pdf">pdf</a>]
-                     <br>
-                     <div id='title' class="abstract">
-                        Abstract
-                     </div>
-               </li> -->
-            </ol>
+		     <div class="paper">
+			  <p class="title"><b><a href="https://arxiv.org/abs/1704.07785">  Thinking fast and slow: Optimization decomposition across timescales.</a></b></p>
+			  <p>with Niangjun Chen and Adam Wierman. Appeared at <b>CDC 2017.</b></p>
+		     </div>   
          </td>
       </tr>
-      <tr>
-         <td width = "1200">
-            <br>
-            <b> Teaching. </b> I have had the good fortune of TAing the following classes over my
-	    career thus far:
-            <ul>
-               <li> Fall 2020: CSE 202 Algorithms. UCSD. Teaching Assistant.
-               <li> Winter 2019: <a href="https://cseweb.ucsd.edu/classes/wi19/cse200-a/">CSE 200 Computability and Complexity</a>. UCSD. Teaching Assistant.</li>
-               <li> Spring 2018: <a href="https://people.cs.umass.edu/~immerman/cs501/">CS 501 Formal Language Theory</a>. UMass Amherst. Teaching Assistant.</li>
-               <li> Fall 2017: CS 311 Algorithms. UMass Amherst. Undergraduate Course Assistant.</li>
-            </ul>
-         </td>
-      </tr>
-	<tr>
-	<td align="center">
-	~	
-	</td>
-	</tr>
-      <tr>
-	<td width = "1200">
-	      <br>
-	      <i>On exactitude in science.</i>  <b>Jorge Luis Borges.</b>
-		<br>
-		<br>
-                     ...In that Empire, the Art of Cartography attained such Perfection that the map of a
-                     single Province occupied the entirety of a City, and the map of the Empire, the entirety
-                     of a Province. In time, those Unconscionable Maps no longer satisfied, and the
-                     Cartographers Guilds struck a Map of the Empire whose size was that of the Empire, and
-                     which coincided point for point with it. The following Generations, who were not so
-                     fond of the Study of Cartography as their Forebears had been, saw that that vast Map
-                     was Useless, and not without some Pitilessness was it, that they delivered it up to the
-                     Inclemencies of Sun and Winters. In the Deserts of the West, still today, there are
-                     Tattered Ruins of that Map, inhabited by Animals and Beggars; in all the Land there is
-                     no other Relic of the Disciplines of Geography.
-                     <br>
-                     <br>
-                     - Suarez Miranda, <i>Viajes devarones prudentes</i>, Libro IV, Cap. XLV, Lerida, 1658
+     
 
-
-	      </br>
-	</td>
-	</tr>
     </table>
          
 </body>
